@@ -471,6 +471,7 @@ class HilandDealApp(tk.Tk):
             self._insert_single_item(deal, i)
 
     def finish_scan(self):
+        self.resort_and_refresh()
         self.status_var.set(f"Scan complete. Found {len(self.products)} deals.")
         self.scan_btn.config(state=tk.NORMAL, text="FIND DEALS")
         self.stop_btn.config(state=tk.DISABLED)

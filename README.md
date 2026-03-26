@@ -2,6 +2,10 @@
 
 This application is a specialized web scraper and deal finder for Hiland's Cigars. It provides a user-friendly GUI to scan the website for cigar deals and analyze discounts.
 
+## Preview
+
+![Hiland's Deal Hunter Interface](app_img.png)
+
 ## Features:
 
 1.  **Automated Scraping**:
